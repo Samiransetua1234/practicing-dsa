@@ -1,7 +1,7 @@
 package com.dsa.shorting;
 
 public class BubbleShort {
-	public static void SShort(int [] arr , int n) {
+	public static void BShort(int [] arr , int n) {
 		// write code here
 		for(int i = 0; i < n-1; i++) {
 			boolean flag = false;
@@ -30,7 +30,7 @@ public class BubbleShort {
 
 	public static void main(String[] args) {
 		int [] arr = {9, 4,1,5,3,7,8,2, 5, 1, 8};
-		SShort(arr, arr.length);
+		BShort(arr, arr.length);
 		System.out.println("The Shorted array is : " );
 		Print(arr);
 		
