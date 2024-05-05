@@ -1,6 +1,6 @@
 package com.dsa.shorting;
 
-public class BubbleShort {
+public class BubbleSort {
 	public static void BShort(int [] arr , int n) {
 		// write code here
 		for(int i = 0; i < n-1; i++) {

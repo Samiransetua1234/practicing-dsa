@@ -1,6 +1,6 @@
 package com.dsa.shorting;
 
-public class InsertionShort {
+public class InsertionSort {
 	
 	public static void IShort(int [] arr , int n) {
 		// write code here

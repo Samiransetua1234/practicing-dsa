@@ -1,6 +1,6 @@
 package com.dsa.shorting;
 
-public class QuickShort {
+public class QuickSort {
 	
 	public static void QShort(int [] arr, int lb , int ub) {
 		// write code here

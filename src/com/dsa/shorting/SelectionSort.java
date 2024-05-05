@@ -1,8 +1,6 @@
 package com.dsa.shorting;
 
-import java.util.Iterator;
-
-public class SelectionShort {
+public class SelectionSort {
 	
 	public static void SShort(int [] arr) {
 		// write code here
