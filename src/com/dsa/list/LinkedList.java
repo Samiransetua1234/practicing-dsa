@@ -60,10 +60,37 @@ public class LinkedList {
 		prev.next = current.next;
 	}
 	
-//	public Node findMiddle() {
-//		Node slow = head;
-//		Node fast = head;
-//		
-//		while()
-//	}
+	public Node findMiddle() {
+		Node slow = head;
+		Node fast = head;
+		
+		while( fast != null && fast.next != null) {
+			slow = slow.next;
+			fast = fast.next.next;
+		}
+		
+		return slow;
+	}
+	
+	public void insertFirst(int data) {
+		Node newNode = new Node(data);
+		newNode.next = head;
+		head = newNode;
+	}
+	
+	public void deleteLast() {
+		
+		if(head == null) return;
+		
+		if(head.next == null) {
+			head = null;
+			return;
+		}
+		Node current = head;
+		while(current.next.next != null) {
+			current = current.next;
+		}
+		
+		current.next = null;
+	}
 }
